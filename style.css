@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* header section */
+#header {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  color: red;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar-nav {
+  margin-left: 55%;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: #F47C7C;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/* hero section */
+#hero {}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hotel2.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-text {
+  font-size: 3rem;
+  color: #C7D36F;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.btn {
+  background-color: #C5D8A4;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 40%;
+}
+
+/* Service section */
+#services {
+  margin-top: 3%;
+}
+
+.heading1 {
+  color: #A5BECC;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading2 {
+  color: #FF8C8C;
+}
+
+/* about */
+#about {
+  margin-top: 3%;
+}
+
+.heading3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img1 {
+  width: 45%;
+  float: left;
+  padding-right: 50px;
+}
+
+.heading4 {}
+
+.para2 {
+  font-size: 1.2rem;
+  color: #243A73;
+}
+
+.read {
+  color: darkblue;
+  font-size: 1.2rem;
+}
+
+/* Cuisine  */
+#Cuisine {
+  margin-top: 3%;
+}
+
+.heading5 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.food {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.heading6 {
+  font-size: 1.3rem;
+  margin-top: 2%;
+}
+
+/* Gallery */
+#Gallery1 {
+  margin-top: 3%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Contact */
+#Contact {
+  margin-top: 50%;
+}
+
+.heading7 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.us {
+  width: 100%;
+}
+
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("lobby.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-right: 50px;
+}
+
+.hero-text2 {
+  font-size: 2rem;
+  color: #C7D36F;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.heading9 {
+  color: #F15412;
+  margin-top: 30%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.recreate2 {
+  text-align: center;
+}
+
+.recreate {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.btn2 {
+  background-color: gray;
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+
+
+#footer{
+  margin-top: 4%;
+  background-color: black;
+  height: 20vh;
+}
+
+.copyright{
+ padding-top: 50px;
+  text-align: center;
+  color: #9EB23B;
+}
+
+span{
+  color: #C7D36F;
+}
